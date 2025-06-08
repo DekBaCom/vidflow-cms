@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import { Share2, Calendar, BarChart3, Eye, Youtube, Instagram } from 'lucide-react'
+import { Share2, Calendar, BarChart3, Eye, Youtube, Instagram, Video } from 'lucide-react'
 
 export default function Sidebar() {
   const [selectedPlatforms, setSelectedPlatforms] = useState(['youtube', 'tiktok', 'facebook'])
