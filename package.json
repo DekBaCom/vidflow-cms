@@ -1,0 +1,43 @@
+{
+  "name": "vidflow-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@cloudflare/next-on-pages": "^1.13.12",
+    "@tailwindcss/forms": "^0.5.10",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "framer-motion": "^12.16.0",
+    "lucide-react": "^0.513.0",
+    "next.js": "^1.0.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "eslint-config-next": "^15.3.3",
+    "prettier": "^3.5.3"
+  }
+  {
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "npm run build && wrangler pages deploy .next",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+   }
+  }
+
+}
